@@ -1,0 +1,15 @@
+# General
+.DS_Store
+.Trashes
+
+# node_modules
+/node_modules
+
+# vs code
+.vscode
+.npm
+
+package-lock.json
+# project
+/css/styles.css.map
+.prepros

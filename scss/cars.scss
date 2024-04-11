@@ -1,0 +1,68 @@
+.car-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .carinfo-img {
+        background-image: url(../images/objective.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 900px;
+        height: 400px;
+    }
+
+
+    .car-info {
+        width: 50%;
+        height: 30%;
+        font-family: monospace;
+    }
+}
+
+
+.car-collection-box {
+
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+
+    .carcol-image {
+        background-image: url(../images/01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+
+    .carcol-text {
+        font-family: cursive;
+        font-weight: 300;
+        width: 150px;
+        height: 100px;
+
+    }
+
+
+    .col2 {
+        background-image: url(../images/F1_car_4_00000.jpg);
+
+    }
+
+    .col3 {
+        background-image: url(../images/F1_car_10_00000.jpg);
+    }
+
+    .col4 {
+        background-image: url(../images/F1_car_7_00000.jpg);
+    }
+}

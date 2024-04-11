@@ -1,0 +1,66 @@
+.std-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .std-hometext {
+        width: 70%;
+        height: 30%;
+        font-family: monospace;
+        text-align: center;
+    }
+}
+
+
+.stdlist-box {
+    padding: 10px;
+
+    .stadium-header {
+        font-family: monospace;
+        padding-top: 10px;
+
+    }
+
+    .stadium-info {
+        width: 70%;
+        height: 30%;
+        font-family: monospace;
+        padding-bottom: 10px;
+    }
+
+    .stadium-img {
+        background-image: url(../images/42159-72_DPI_WEB-F1E-Monaco-2022-Atmosphere-c7eb856e30311abc9b17a7eadf5163ab.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 534px;
+        height: 356px;
+
+        border-radius: 10px;
+        border-top: 12px solid red;
+        border-right: 12px solid red;
+
+    }
+
+    .simg2 {
+
+        background-image: url(../images/72_DPI_WEB-DSC02960.jpg);
+    }
+
+
+    .simg3 {
+
+        background-image: url(../images/38551-JPG_RGB_72_DPI-SD_2019_Belgian_Helico_Sat_028-2c6ed7a9cc58f226ea0588c27bd48bfa.jpg);
+    }
+
+
+    .simg4 {
+
+        background-image: url(../images/31202-2020_Canadian_Grand_Prix_Ticket_Packages_F1_Experiences-908c58b751439ea9a3df7a0813373528.jpg);
+    }
+
+    .simg5 {
+
+        background-image: url(../images/38553-F1E-Brazil-2019-Crowd-Shot-118612d7b92a71b7bb71333c93a110b8.jpg);
+    }
+}

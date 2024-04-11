@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.homepage-img-box {
+  background-color: red;
+  width: 100%;
+}
+.homepage-img-box .homepage-img {
+  background-image: url(../images/image.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.homepage-img-box .homepage-img .homepageimg-text {
+  font-size: xx-large;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
+}
+.homepage-img-box .homepage-img .homemore-text {
+  font-size: medium;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
+}
+.homepage-img-box .homepage-img .home-button {
+  width: 140px;
+  height: 40px;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  font-family: monospace;
+}
+
+.formula-intro-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.formula-intro-box .intro-text {
+  width: 60%;
+  text-align: center;
+  height: 30%;
+  font-family: monospace;
+}
+
+.homemain-img-box {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homemain-img-box .homemain-img {
+  background-image: url(../images/formula_one.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 200px;
+}
+
+.f1-safeinfo-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.f1-safeinfo-box .safe-img {
+  background-image: url(../images/helmets.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 200px;
+}
+.f1-safeinfo-box .safety-text {
+  width: 50%;
+  height: 30%;
+}
+.f1-safeinfo-box .img2 {
+  background-image: url(../images/clothing.jpg);
+}
+
+.drivers-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drivers-box .drivers-text-box {
+  margin-top: 50px;
+  width: 60%;
+  text-align: center;
+  height: 30%;
+  font-family: monospace;
+  display: flex;
+}
+.drivers-box .drivers-homepage {
+  background-image: url(../images/multiple-formula-1-world-champions-split-planetf1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 400px;
+}
+
+.champs-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.champs-box .champ-info {
+  width: 50%;
+  height: 30%;
+  font-family: monospace;
+}
+.champs-box .champ-img {
+  background-image: url(../images/michael_schumacher.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 274px;
+  height: 254px;
+}
+.champs-box .imgchamp2 {
+  background-image: url(../images/ayrton_senna.jpg);
+}
+.champs-box .imgchamp3 {
+  background-image: url(../images/sebastian_vettel.jpg);
+}
+
+.car-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.car-container .carinfo-img {
+  background-image: url(../images/objective.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 400px;
+}
+.car-container .car-info {
+  width: 50%;
+  height: 30%;
+  font-family: monospace;
+}
+
+.car-collection-box {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.car-collection-box .carcol-image {
+  background-image: url(../images/01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.car-collection-box .carcol-text {
+  font-family: cursive;
+  font-weight: 300;
+  width: 150px;
+  height: 100px;
+}
+.car-collection-box .col2 {
+  background-image: url(../images/F1_car_4_00000.jpg);
+}
+.car-collection-box .col3 {
+  background-image: url(../images/F1_car_10_00000.jpg);
+}
+.car-collection-box .col4 {
+  background-image: url(../images/F1_car_7_00000.jpg);
+}
+
+.std-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.std-container .std-hometext {
+  width: 70%;
+  height: 30%;
+  font-family: monospace;
+  text-align: center;
+}
+
+.stdlist-box {
+  padding: 10px;
+}
+.stdlist-box .stadium-header {
+  font-family: monospace;
+  padding-top: 10px;
+}
+.stdlist-box .stadium-info {
+  width: 70%;
+  height: 30%;
+  font-family: monospace;
+  padding-bottom: 10px;
+}
+.stdlist-box .stadium-img {
+  background-image: url(../images/42159-72_DPI_WEB-F1E-Monaco-2022-Atmosphere-c7eb856e30311abc9b17a7eadf5163ab.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 534px;
+  height: 356px;
+  border-radius: 10px;
+  border-top: 12px solid red;
+  border-right: 12px solid red;
+}
+.stdlist-box .simg2 {
+  background-image: url(../images/72_DPI_WEB-DSC02960.jpg);
+}
+.stdlist-box .simg3 {
+  background-image: url(../images/38551-JPG_RGB_72_DPI-SD_2019_Belgian_Helico_Sat_028-2c6ed7a9cc58f226ea0588c27bd48bfa.jpg);
+}
+.stdlist-box .simg4 {
+  background-image: url(../images/31202-2020_Canadian_Grand_Prix_Ticket_Packages_F1_Experiences-908c58b751439ea9a3df7a0813373528.jpg);
+}
+.stdlist-box .simg5 {
+  background-image: url(../images/38553-F1E-Brazil-2019-Crowd-Shot-118612d7b92a71b7bb71333c93a110b8.jpg);
+}
+
+footer {
+  height: 100px;
+  background-color: red;
+}
+footer .footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+footer .footer-box .footer-logo {
+  background-image: url(../images/f1_global_footer_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 126px;
+  height: 32px;
+}
+footer .footer-box .footer-text {
+  width: 222px;
+  height: 14px;
+  font-family: GillSansregular;
+  font-size: 12px;
+  color: white;
+}
+footer .footer-box .footer-icons .user {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

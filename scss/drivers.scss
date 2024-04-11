@@ -1,0 +1,60 @@
+.drivers-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .drivers-text-box {
+        margin-top: 50px;
+        width: 60%;
+        text-align: center;
+        height: 30%;
+        font-family: monospace;
+        display: flex;
+
+
+    }
+
+    .drivers-homepage {
+        background-image: url(../images/multiple-formula-1-world-champions-split-planetf1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 900px;
+        height: 400px;
+
+    }
+}
+
+
+.champs-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .champ-info {
+        width: 50%;
+        height: 30%;
+        font-family: monospace;
+    }
+
+    .champ-img {
+        background-image: url(../images/michael_schumacher.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 274px;
+        height: 254px;
+    }
+
+    .imgchamp2 {
+        background-image: url(../images/ayrton_senna.jpg);
+    }
+
+
+    .imgchamp3 {
+        background-image: url(../images/sebastian_vettel.jpg);
+    }
+}
